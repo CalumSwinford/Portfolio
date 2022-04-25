@@ -18,13 +18,13 @@ border: 3px solid #73AD21;
 padding: 10px;
 }
 body{
-background-color: black;
+background-color: white;
 }
 header{
-color: blue;
+color: black;
 }
 .about{
-background-color: blue;
+background-color: cyan;
 width: 250px;
 border: 1.5px;
 padding:50px;
@@ -34,18 +34,20 @@ margin: 0px;
 
 }
 .Abrams{
-background-color: lightblue;
+background-color: black;
+color: cyan;
 width: 300px;
 border: 1.5px;
 padding:50px;
 margin: 0px;
 }
+
 ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #333;
+background-color: orange;
 }
 
 li {
@@ -61,9 +63,67 @@ text-decoration: none;
 }
 
 li a:hover {
-background-color: blue;
+background-color: cyan;
 }
 footer{
 color: blue;
 font-style: italic;
+}
+
+
+
+.membership{}
+
+
+aside{
+  color:cyan;
+}
+
+aside:hover{
+  color: cyan;
+  font-size: 50px
+}
+.t-body{
+  background-color: black;
+}
+.div1{
+  width: 300px;
+  height: 100px;
+  background: cyan;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  color:orange;
+}
+
+.div1:hover {
+  width: 100%;
+}
+.tsSec2{
+  width: 300px;
+  height: 100px;
+  background: cyan;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  color:orange;
+}
+
+.tsSec2:hover {
+  width: 100%;
+}
+.tsSec3{
+  width: 300px;
+  height: 100px;
+  background: cyan;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  color:orange;
+}
+.tsSec3:hover{
+  width:100%;
 }
