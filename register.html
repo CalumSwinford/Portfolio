@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register form</title>
+      <link rel="stylesheet" type="text/css" href="register.css">
+  </head>
+  <body>
+    <form method="GET">
+    <div class="grid">
+     <div class="col span">
+       <nav>
+         <ul class="main-nav">
+
+           <li><a href="file:///C:/Users/Calum/OneDrive/Desktop/Front%20End/html100/Portfolio/index.html" class="home">Home</a></li>
+           <li><a href="" class="squads">Squads</a></li>
+           <li><a href="file:///C:/Users/Calum/OneDrive/Desktop/Front%20End/html100/Portfolio/no-water-party.html" class="teamstore">Team Store</a></li>
+           <li><a href="file:///C:/Users/Calum/OneDrive/Desktop/Front%20End/html100/Portfolio/grid-experiment.html" class="facility">Our Facility</a></li>
+
+         </ul>
+       </nav>
+</div>
+
+
+    <div class="col span2">
+      <h2>Rowing Services</h2>
+
+        <p>Distance Per Stroke</p>
+        <p>Watt/Weight Ratio</p>
+        <p>Individual Athlete Data</p>
+        <p>Line-Up Data</p>
+        <p>Training Progress Data</p>
+        <p>Weight Adjustment</p>
+        <p>Training Recomendations</p>
+        <p>Data Graphs</p>
+
+      <h2 id="skiing">Skiing Services</h2>
+      <div class="SkiSec">
+        <p>Kinetic Data</p>
+        <p>Athlete Data</p>
+        <p>Biathalon Target Accuracy</p>
+        <p>Training Recommendations</p>
+        <p>Data Graphs</p>
+        </div>
+
+
+
+
+
+    </div>
+    <div class="col span3">
+      <h2>Membership types</h2>
+      <h3>Basic</h3>
+      <p>Data Calculators</p>
+      <p>Member Account</p>
+      <h3>Silver</h3>
+      <p>Data Calculators</p>
+      <p>Member Account</p>
+      <p>Data Memory (current data)</p>
+      <p>Athlete Profiles</p>
+      <h3>Gold</h3>
+      <p>Access to all services</p>
+
+
+
+
+
+    </div>
+    <div class="col span4">
+      <h1>Registration Form</h1>
+
+        <label>Your name:
+          <input type="text" name="applicantName">
+        </label>
+        <label>Address:
+          <input type="text" name="applicantAddress">
+        </label>
+        <label>State/Territory:
+          <input type="text" name="applicantState">
+        </label>
+        <label>Zip Code:
+          <input type="text" name="applicantState">
+        </label>
+        <label>Country
+          <select name="number">
+            <option value="">PleaseSelect</option>
+            <option value="few">Canada</option>
+            <option value="some">United States of America</option>
+            <option value="many">Finland</option>
+          </select>
+        </label>
+        <fieldset class="checkbox">
+          <legend id="mem-type">Membership Type</legend>
+          <label>
+          <input type="checkbox" name="mType" value="basic">Basic
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="bType" value="silver">Silver
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="cType" value="gold">Gold
+          <span class="checkmark"></span>
+          </label>
+
+        </fieldset>
+        <fieldset class="checkbox">
+          <legend id="sport-type">Sport</legend>
+          <label>
+          <input type="checkbox" name="rowing" value="rowing">Rowing
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="nordicSkiing" value="nSkiing">Nordic Skiing
+          <span class="checkmark"></span>
+          </label>
+
+
+        </fieldset>
+    </div>
+    <div class="col span5">
+      <label>Questions
+        <textarea name="applicantQuestions" rows="4" cols="50">Optional</textarea>
+      </label>
+      <label>Email:
+        <input type="email" name="applicantEmail">
+      </label>
+        <input type="submit" value="Submit">
+    </div>
+
+
+
+    <div class="col span6">
+      <div class="footer">
+      <footer>
+        <div>
+        <p id="f1">CCC Web Services</p>
+        <p id="f2">2022</p>
+
+       </div>
+       </footer>
+      </div>
+    </div>
+    </div>
+
+    </form>
+  </body>
+</html>
